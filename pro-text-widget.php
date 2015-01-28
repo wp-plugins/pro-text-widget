@@ -3,7 +3,7 @@
 Plugin Name: Pro Text Widget
 Plugin URI: http://wordpress.org/plugins/pro-text-widget/
 Description: Pro Text Widget.You have choice to text widget show only specific Post/category/Page.
-Version: 1.0
+Version: 1.1
 Author: Shambhu Prasad Patnaik
 Author URI:http://socialcms.wordpress.com/
 */
@@ -39,9 +39,10 @@ class Pro_Text_Widget extends WP_Widget {
          case 'page' :
 			if(is_page())
 			{
-			 if($text_ids=='')
+			  $page_id =get_the_ID();
+              if($text_ids=='')
           	  $show_widget =true;
-			 elseif(in_array($post_id,$t_ids))
+			 elseif(in_array($page_id,$t_ids))
 			  $show_widget =true;
 		    }
 			break;

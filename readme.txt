@@ -4,7 +4,7 @@ Donate link: http://socialcms.wordpress.com/
 Tags: pro text widget,custom text widget,advanced text widget,text widget,widget,text
 Requires at least: 2.9
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,7 +48,11 @@ More detail : http://socialcms.wordpress.com/
 
 == Changelog ==
 
-N/A
+= 1.1 =
+* Fix Error in page case
+
+= 1.0 =
+* Initial release
 
 == Upgrade Notice ==
 
